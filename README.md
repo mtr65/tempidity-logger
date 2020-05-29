@@ -14,3 +14,4 @@ the software needed to to build my own Raspberry Pi based outdoor weather statio
 
 Another goal of this project is to learn how to use GitHub for this and future projects.
 
+UPDATED: May 29, 2020
