@@ -1,5 +1,5 @@
 # tempidity-logger
-Python 3 code for displaying and logging temperature and humidty data with a Raspberry Pi.
+Python 3 code for displaying and logging temperature and humidity data with a Raspberry Pi.
 
 For this project I am using a Raspberry Pi model 3 A+ with a DHT22 digital temperature and
 humidity sensor connected to the RPi GPIO port.
@@ -11,5 +11,5 @@ I decided to modify the code to improve and change the logging and display forma
 The main goal of this project is to begin learning how to program using Python and to develop
 the software needed to to build my own Raspberry Pi based outdoor weather station.
 
-The other goal of this project is to learn how to use GitHub for this and future projects.
+Another goal of this project is to learn how to use GitHub for this and future projects.
 
