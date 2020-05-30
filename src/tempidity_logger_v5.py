@@ -32,4 +32,4 @@ while True:
     else:
         print ("Failed to retrieve data from sensor")
 
-    time.sleep(60)
+    time.sleep(30)
