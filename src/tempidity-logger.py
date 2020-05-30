@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 # Source File name: tempidity_logger_v5.py
 # Copyright © 2020 Matt Robbins [mtr@mattrobbins.net]
-# 
-#
 
 import os
 import time
@@ -29,7 +27,7 @@ while True:
         fo = open("/home/wisdom/Code/Python/tempidity_data.csv", "a+")
         fo.write('{0},{1},{2:0.1f},{3:0.1f}\r\n'.format(time.strftime('%m/%d/%y'), time.strftime('%H:%M:%S'), temperature, humidity))
 #         print (now.strftime("%Y-%m-%d %H:%M:%S"))
-        print(now.strftime("%m-%d-%Y %H:%M:%S"),"Temp: {0:0.1f}\u00B0C {1:0.1f}\u00B0F Humidity: {2:0.1f}%".format(temperature, tempfahr, humidity))
+        print(now.strftime("%m-%d-%Y %H:%M:%S"),"Temp: {0:0.1f}\u00B0C/{1:0.1f}\u00B0F Humidity: {2:0.1f}%".format(temperature, tempfahr, humidity))
         fo.close()
     else:
         print ("Failed to retrieve data from sensor")
