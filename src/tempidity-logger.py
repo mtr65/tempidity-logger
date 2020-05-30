@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # Source File name: tempidity_logger_v5.py
 # Copyright © 2020 Matt Robbins [mtr@mattrobbins.net]
+# 
+#
 
 import os
 import time
