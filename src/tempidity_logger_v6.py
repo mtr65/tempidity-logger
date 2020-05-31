@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Source File name: tempidity_logger_v5.py
+# Source File name: tempidity_logger_v6.py
 # Copyright © 2020 Matt Robbins [mtr@mattrobbins.net]
 #
 # Last updated May 31, 2020
@@ -34,4 +34,4 @@ while True:
     else:
         print ("Failed to retrieve data from sensor")
 
-    time.sleep(30)
+    time.sleep(60)
