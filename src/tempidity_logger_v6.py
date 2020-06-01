@@ -23,7 +23,7 @@ try:
         fo.write("Date,Time,Temperature,Humidity\r\n")
 
     os.system('clear')    
-    print("\n\n  \33[7m** Reading temperature and humidity data from Sensor#1 ** \33[0m\n\n")    
+    print("\n\n  \33[7m Reading temperature and humidity data from  \33[92m Sensor #1 \33[0m\n\n")    
 
 except:
     pass
