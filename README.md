@@ -16,4 +16,6 @@ Another goal of this project is to learn how to use GitHub for this and future p
 
 The current version of the Python code is in the /src directory.
 
-UPDATED: May 30, 2020
+Read the CHANGELOG.md file for update info.
+
+UPDATED: May 31, 2020
