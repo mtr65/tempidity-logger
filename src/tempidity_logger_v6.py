@@ -2,7 +2,7 @@
 # Source File name: tempidity_logger_v6.py
 # Copyright © 2020 Matt Robbins [mtr@mattrobbins.net]
 #
-# Last updated May 31, 2020
+# Last updated June 1, 2020
 
 import os
 import time
