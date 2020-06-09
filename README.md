@@ -14,8 +14,8 @@ the software needed to to build a Raspberry Pi based outdoor weather station.
 
 Another goal of this project is to learn how to use GitHub for this and future projects.
 
-The current version of the Python code is in the /src directory.
+The current version(v6.2) of the Python code is in the /src directory.
 
 Read the CHANGELOG.md file for update info.
 
-UPDATED: May 31, 2020
+UPDATED: June 8, 2020
