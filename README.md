@@ -21,3 +21,5 @@ The current version of this program (v6.2) is in the /src directory.
 Read the CHANGELOG.md file for update info.
 
 UPDATED: July 30, 2020
+
+...
