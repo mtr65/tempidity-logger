@@ -3,7 +3,7 @@
 Python 3 code for displaying and logging temperature and humidity data with a Raspberry Pi.
 
 For this project I am using a Raspberry Pi Model 3 A+ with a DHT22 digital 
-temperature/humidity sensor module connected to the RPi GPIO port 16.
+temperature/humidity sensor module connected to the RPi GPIO pin 4.
 
 I started the project by following the guide located at:
 
