@@ -10,6 +10,4 @@
 	
 	07-30-2020: [v6.2] Minor change to CHANGELOG.md formatting at EOF.
 
-	07-30-2020: [v6.2] Minor change to CHANGELOG.md viewing for EOF
-	
 	...
