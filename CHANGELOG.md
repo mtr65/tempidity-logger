@@ -7,6 +7,8 @@
 	06-08-2020: [v6.1] Added variable to map $HOME dir path for log file.
 
 	06-09-2020: [v6.2] Created new working version.
+	
+	07-30-2020: [v6.2] Minor change to CHANGELOG.md formatting at EOF.
 
 	07-30-2020: [v6.2] Minor change to CHANGELOG.md viewing for EOF
 	
