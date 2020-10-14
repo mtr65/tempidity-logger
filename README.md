@@ -2,6 +2,10 @@
 
 Python 3 code for displaying and logging temperature and humidity data from a DHT22 sensor. 
 
+DESCRIPTION: A Python3 program to interface a DHT22 temperature & humidity sensor module with a
+             Raspberry Pi via GPIO pins in order to log sensor data to a CSV logfile
+             and display the readings in a terminal window.
+
 For this project I am using a Raspberry Pi Model 3 A+ with a DHT22 digital 
 temperature/humidity sensor module connected to the RPi GPIO pin 4.
 
