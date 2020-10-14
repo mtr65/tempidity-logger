@@ -2,7 +2,7 @@
 #
 # Source File: tempidity-logger_betaV1.0.2.py
 #
-# Description: A program to interface a DHT22 temperature & humidity sensor module with a
+# Description: A program to interface the DHT22 temperature & humidity sensor module with a
 #              Raspberry Pi via GPIO pins in order to log sensor data to a CSV logfile
 #              and display the readings in a terminal window.
 #
