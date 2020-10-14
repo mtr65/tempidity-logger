@@ -13,7 +13,7 @@ I started the project by following the guide located at:
 
 https://pimylifeup.com/raspberry-pi-humidity-sensor-dht22/
 
-Below is the pinout scription for connectng the DHT22 module followed by a link showing the wiring
+Below is the pinout description from the guide above for connectng the DHT22 module followed by a link showing the wiring
 diagram for using a breadboard circuit.
 
    - Place a 10k resistor between Pin 1 and Pin 2 of the DHT22
