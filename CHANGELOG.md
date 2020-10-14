@@ -1,3 +1,7 @@
+	
+	10-13-2020: Created new version(betaV1.0.2) with cleaned up looping and program flow,
+	            added exception handling for enabling CTRL-C to end program execution.
+
 	10-10-2020: [betaV1.0.1] Changed log file mapping to use PATH from the pathlib module instead
 	                         of full path names. Changed location of the logfile to ~/log.
 				 
