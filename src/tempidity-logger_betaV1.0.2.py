@@ -51,5 +51,5 @@ try:
         time.sleep(60)
 
 except KeyboardInterrupt:
-    print("\n\n\t****  Exiting program tempidity-logger ****\n\n")
+    print("\n\n\t*******  ENDING PROGRAM EXECUTION *******\n\n")
     sys.exit()
