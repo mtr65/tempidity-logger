@@ -28,7 +28,7 @@ CRED2 = '\33[91m'
 
 try:
     os.system('clear')
-    print("\n\n  \33[7m Reading temperature and humidity data from  \33[92m Sensor #1 \33[0m\n\n")
+    print("\n\n  \33[7m Reading temperature and humidity data from \33[92m  Sensor #1 \33[0m\n\n")
 
     while True:
         logFile = open(Path.home() / Path('log/') / 'tempidity_data.csv', "a+")
@@ -41,8 +41,11 @@ try:
 
         if humidity is not None and temperature is not None:
             logFile = open(Path.home() / Path('log/') / 'tempidity_data.csv', "a+")
-            logFile.write('{0},{1},{2:0.1f},{3:0.1f}\r\n'.format(time.strftime('%m/%d/%y'), time.strftime('%H:%M:%S'), temperature, humidity))
-            print(now.strftime(CRED2 + " %m-%d-%Y %H:%M:%S" + CEND), CBLUEBG + " Temp: {0:0.1f}\u00B0C/{1:0.1f}\u00B0F \33[0m " "\33[42m Humidity: {2:0.1f}% \33[0m".format(temperature, tempfahr, humidity))
+            logFile.write('{0},{1},{2:0.1f},{3:0.1f}\r\n'.format(time.strftime('%m/%d/%y'), \
+                time.strftime('%H:%M:%S'), temperature, humidity))
+            print(now.strftime(CRED2 + " %m-%d-%Y %H:%M:%S" + CEND), \
+                CBLUEBG + " Temp: {0:0.1f}\u00B0C/{1:0.1f}\u00B0F \33[0m " "\33[42m Humidity: {2:0.1f}% \33[0m".format \
+                (temperature, tempfahr, humidity))
             logFile.close()
 
         else:
