@@ -24,7 +24,7 @@ diagram for using a breadboard circuit.
 
 https://pi.lbbcdn.com/wp-content/uploads/2019/05/Raspberry-Pi-Humidity-Sensor-DHT22-Wiring-Schematic.png
 
-This got me up and running but I decided to modify the code to simplify the file logging parts and change
+This got me up and running but I decided to modify the code to simplify the file paths for logging and change
 the display formatting while adding a conversion to Fahrenheit for display as well.
 
 The main goal for this project is for me to start learning how to program with Python 3 and to develop
