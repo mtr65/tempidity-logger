@@ -39,6 +39,6 @@ The current version of this program is tempidity-logger_betaV1.0.2.py in the /sr
 
 Read the CHANGELOG.md file for update info.
 
-UPDATED: October 13, 2020
+UPDATED: October 14, 2020
 
 ...
