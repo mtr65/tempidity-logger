@@ -19,8 +19,8 @@ I started the project by following the guide located at:
 https://pimylifeup.com/raspberry-pi-humidity-sensor-dht22/
 
 This got me up and running but I decided to modify the code to simplify the file paths for logging and change
-the display formatting while adding a conversion to Fahrenheit for display as well. Overall I made the code easier to
-follow with a more logical main loop format.
+the display formatting while adding a conversion to Fahrenheit for display(not logged to file). After my changes I went
+back over it all to clean up some spots to make it easier to follow while adding a more logical main loop format.
 
 Below is the pinout description from the guide above for connectng the DHT22 module followed by a link showing the wiring
 diagram for using a breadboard circuit.
