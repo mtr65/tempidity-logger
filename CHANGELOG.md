@@ -1,4 +1,8 @@
 	
+	10-14-2020: Added new file tempidity-LCDlogger_betaV1.0.3. This code reads the DHT
+	            sensor and displays it on a 16x2 character display but does not log
+		    the data to a file.
+	
 	10-13-2020: Created new version(betaV1.0.2) with cleaned up looping and program flow,
 	            added exception handling for enabling CTRL-C to end program execution.
 
