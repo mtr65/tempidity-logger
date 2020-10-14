@@ -11,7 +11,7 @@ temperature/humidity sensor module connected to the RPi GPIO pin 4.
 
 I started the project by following the guide located at:
 
-https://pimylifeucom/raspberry-pi-humidity-sensor-dht22
+https://pimylifeucom/raspberry-pi-humidity-sensor-dht22/
 
 Below is the pinout scription for connectng the DHT22 module followed by a link showing the wiring
 diagram for using a breadboard circuit.
