@@ -1,9 +1,9 @@
 # tempidity-logger
 
-Python 3 code for displaying and logging temperature and humidity data from a DHT22 sensor. 
+Python 3 code for display and logging of temperature and humidity data from a DHT22 sensor.
 
-DESCRIPTION: A Python3 program to interface a DHT22 temperature & humidity sensor module with a
-             Raspberry Pi via a GPIO pin in order to log sensor data to a CSV logfile
+DESCRIPTION: A Python 3 program to interface a DHT22 temperature & humidity sensor module with a
+             Raspberry Pi via GPIO in order to log sensor data to a CSV log file
              and display the readings in a terminal window.
 
 For this project I am using a Raspberry Pi Model 3 A+ with a DHT22 digital 
@@ -25,7 +25,8 @@ diagram for using a breadboard circuit.
 https://pi.lbbcdn.com/wp-content/uploads/2019/05/Raspberry-Pi-Humidity-Sensor-DHT22-Wiring-Schematic.png
 
 This got me up and running but I decided to modify the code to simplify the file paths for logging and change
-the display formatting while adding a conversion to Fahrenheit for display as well.
+the display formatting while adding a conversion to Fahrenheit for display as well. Overall I made the code easier to
+follow with a more logical main loop format.
 
 The main goal for this project is for me to start learning how to program with Python 3 and to develop
 the software needed to build various Raspberry Pi based projects like a weather station.
