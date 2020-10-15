@@ -11,10 +11,10 @@
 # Last updated October 14, 2020.
 #
 
-import os
-import sys
-import time
-import datetime
+import os, sys, time, datetime
+# import sys
+# import time
+# import datetime
 import Adafruit_DHT
 from pathlib import Path
 
