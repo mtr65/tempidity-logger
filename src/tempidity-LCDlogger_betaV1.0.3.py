@@ -37,40 +37,14 @@ checkmark = bytes([0x0, 0x18, 0x18, 0x18, 0x0, 0x0, 0x0, 0x0])
 lcd.create_char(0, checkmark)
 
 # lcd.message = "\x00"
-
-
-# looking for an active Ethernet or WiFi device
-#def find_interface():
-#    find_device = "ip addr show"
-#    interface_parse = run_cmd(find_device)
-#    for line in interface_parse.splitlines():
-#        if "state UP" in line:
-#            dev_name = line.split(':')[1]
-#    return dev_name
-
-# find an active IP on the first LIVE network device
-#def parse_ip():
-#    find_ip = "ip addr show %s" % interface
-#    find_ip = "ip addr show %s" % interface
-#    ip_parse = run_cmd(find_ip)
-#    for line in ip_parse.splitlines():
-#        if "inet " in line:
-#            ip = line.split(' ')[5]
-#            ip = ip.split('/')[0]
-#    return ip
-
-# run unix shell command, return as ASCII
-#def run_cmd(cmd):
-#    p = Popen(cmd, shell=True, stdout=PIPE)
-#    output = p.communicate()[0]
-#    return output.decode('ascii')
-
 # wipe LCD screen before we start
 # lcd.backlight = true
+
 lcd.clear()
 
 # before we start the main loop - detect active network device and ip address
-sleep(2)
+
+#leep(2)
 #interface = find_interface()
 #ip_address = parse_ip()
 
@@ -85,18 +59,17 @@ while True:
     # lcd.message = datetime.now().strftime('%b %d  %H:%M:%S\n')
     # sleep(10)
     # lcd.clear()
-    lcd_line_1 = ('Temp: %d\x00C ' % temperature)
-    lcd_line_2 = ('%d\x00F\n' % tempfahr)
-
+    ##lcd_line_1 = ('Temp: %d\x00C ' % temperature)
+    ##lcd_line_2 = ('%d\x00F\n' % tempfahr)
+    lcd_line_1 = ('Temp: %d\x00c %d\x00F\n' %(temperature, tempfahr))
+    lcd_line_2 = ('Humidity: %d%%' % humidity)
     # lcd_line_1 = ('Temp: {0:0.1f}C/{1:0.1f}F\n'.format(temperature, tempfahr)
 
-    # current ip address
-    # lcd_line_2 = "IP " + ip_address
-    lcd_line_3 = ('Humidity: %d%%' % humidity)
+    #lcd_line_3 = ('Humidity: %d%%' % humidity)
     # lcd_line_2 = ('Humidity: {0}%%'.format(humidity)
 
     # combine both lines into one update to the display
-    lcd.message = lcd_line_1 + lcd_line_2 + lcd_line_3
+    lcd.message = lcd_line_1 + lcd_line_2 # + lcd_line_3
 
     # scroll_msg = lcd_line_1 + lcd_line_2 + lcd_line_3
     # scroll_msg = "Yo Dude!"
