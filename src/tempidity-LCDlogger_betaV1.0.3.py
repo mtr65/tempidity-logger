@@ -34,17 +34,7 @@ checkmark = bytes([0x0, 0x18, 0x18, 0x18, 0x0, 0x0, 0x0, 0x0])
 # Store byte code in LCD character memory 0
 lcd.create_char(0, checkmark)
 
-# lcd.message = "\x00"
-# wipe LCD screen before we start
-# lcd.backlight = true
-
 lcd.clear()
-
-# before we start the main loop - detect active network device and ip address
-
-#leep(2)
-#interface = find_interface()
-#ip_address = parse_ip()
 
 while True:
     # lcd.clear()
