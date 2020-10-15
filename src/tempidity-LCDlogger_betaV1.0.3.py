@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
-#from subprocess import Popen, PIPE
 from time import sleep
-#from datetime import datetime
 import board
 import digitalio
 import adafruit_character_lcd.character_lcd as characterlcd
@@ -54,30 +52,9 @@ while True:
     humidity, temperature = Adafruit_DHT.read_retry(DHT_SENSOR, DHT_PIN)
     tempfahr = (temperature * 1.8 ) + 32
 
-    # date and time
-    # lcd_line_1 = datetime.now().strftime('%b %d  %H:%M:%S\n')
-    # lcd.message = datetime.now().strftime('%b %d  %H:%M:%S\n')
-    # sleep(10)
-    # lcd.clear()
-    ##lcd_line_1 = ('Temp: %d\x00C ' % temperature)
-    ##lcd_line_2 = ('%d\x00F\n' % tempfahr)
-    lcd_line_1 = ('Temp: %d\x00c %d\x00F\n' %(temperature, tempfahr))
+    lcd_line_1 = ('Temp: %d\x00C %d\x00F\n' % (temperature, tempfahr))
     lcd_line_2 = ('Humidity: %d%%' % humidity)
-    # lcd_line_1 = ('Temp: {0:0.1f}C/{1:0.1f}F\n'.format(temperature, tempfahr)
 
-    #lcd_line_3 = ('Humidity: %d%%' % humidity)
-    # lcd_line_2 = ('Humidity: {0}%%'.format(humidity)
-
-    # combine both lines into one update to the display
-    lcd.message = lcd_line_1 + lcd_line_2 # + lcd_line_3
-
-    # scroll_msg = lcd_line_1 + lcd_line_2 + lcd_line_3
-    # scroll_msg = "Yo Dude!"
-    # lcd.message = scroll_msg
-    # Scroll message to the left
-    # for i in range(len(scroll_msg)):
-       # sleep(0.5)
-       # lcd.move_left()
-    # lcd.clear()
+    lcd.message = lcd_line_1 + lcd_line_2
 
     sleep(10)
