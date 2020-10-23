@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-import sys
-import os, sys, time, datetime
+#import sys
+#import os, sys, time, datetime
 from gpiozero import LED
 from time import sleep
 import board
