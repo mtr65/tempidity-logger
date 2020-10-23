@@ -1,6 +1,6 @@
 # tempidity-logger
 
-Python 3 code for display and logging of temperature and humidity data from a DHT22 sensor module.
+Python 3 code for display and logging of temperature and humidity data from a DHT22 digital sensor module.
 
 The main goal for this project is for me to start learning how to program with Python 3 and to develop
 the software needed to build various Raspberry Pi based projects like a weather station.
