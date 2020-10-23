@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #
-# Source File: tempidity-logger_betaV1.0.2.py
+# Source File: tempidity-logger_betaV1.0.4.py
 #
 # DESCRIPTION: A Python 3 program for connecting a DHT22 temperature & humidity sensor module to a
 #              Raspberry Pi via the GPIO interface in order to log sensor data readings to a CSV log file
@@ -8,7 +8,7 @@
 #
 # Copyright © 2020 Matt Robbins [mtr@mattrobbins.net]
 #
-# Last updated October 14, 2020.
+# Last updated October 23,2020.
 #
 
 import os, sys, time, datetime
@@ -44,6 +44,13 @@ try:
                 CBLUEBG + " Temp: {0:0.1f}\u00B0C/{1:0.1f}\u00B0F \33[0m " "\33[42m Humidity: {2:0.1f}% \33[0m".format
                 (temperature, tempfahr, humidity))
             logFile.close()
+
+            lcd_line_1 = ('Temp: %d\x00C %d\x00F\n' % (temperature, tempfahr))
+            lcd_line_2 = ('Humidity: %d%%' % humidity)
+
+            lcd.message = lcd_line_1 + lcd_line_2
+
+            led.blink(1, 9)
 
         else:
             print("Failed to retrieve data from sensor")
