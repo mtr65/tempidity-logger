@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+import sys
+from gpiozero import LED
 from time import sleep
 import board
 import digitalio
@@ -8,6 +10,7 @@ import Adafruit_DHT
 
 DHT_SENSOR = Adafruit_DHT.DHT22
 DHT_PIN    = 4
+led = LED(16)
 
 # Modify this if you have a different sized character LCD
 lcd_columns = 16
@@ -46,5 +49,8 @@ while True:
     lcd_line_2 = ('Humidity: %d%%' % humidity)
 
     lcd.message = lcd_line_1 + lcd_line_2
+
+    led.blink(1,9)
+    #sleep(3)
 
     sleep(10)
