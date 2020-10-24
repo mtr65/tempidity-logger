@@ -83,8 +83,8 @@ try:
 
             lcd.message = lcd_line_1 + lcd_line_2
 
-            led.blink(1, 9)
-
+            if tempfahr > 70 and tempfahr < 74:
+                led.blink(1, 9)
         else:
             print("Failed to retrieve data from sensor")
 
