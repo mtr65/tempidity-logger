@@ -21,6 +21,7 @@ import adafruit_character_lcd.character_lcd as characterlcd
 
 DHT_SENSOR = Adafruit_DHT.DHT22
 DHT_PIN = 4
+
 led = LED(16)
 
 # Modify this if you have a different sized character LCD
