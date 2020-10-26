@@ -83,7 +83,12 @@ try:
 
             lcd.message = lcd_line_1 + lcd_line_2
             led.off()
-            if tempfahr >= 68 and humidity <= 72:
+            #if tempfahr >= 68 and humidity <= 72:
+            if tempfahr < 68:
+                led.off()
+            elif tempfahr > 74:
+                led.off()
+            else:
                 led.blink(1,9)
         else:
             print("Failed to retrieve data from sensor")
