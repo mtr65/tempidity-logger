@@ -37,10 +37,10 @@ https://pi.lbbcdn.com/wp-content/uploads/2019/05/Raspberry-Pi-Humidity-Sensor-DH
 
 ***********************************************************************************
 
-The current version of this program is tempidity-logger_betaV1.0.2.py in the /src directory.
+The current version of this program is tempidity-logger_betaV1.0.4.py in the /src directory.
 
 Read the CHANGELOG.md file for update info.
 
-UPDATED: October 14, 2020
+UPDATED: July 31, 2021
 
 ...
