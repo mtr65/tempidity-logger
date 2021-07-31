@@ -1,4 +1,7 @@
-	
+	07-31-2021: [tempidity-logger_betaV1.0.4.py] New version created. Added code to blink
+	            a green LED when temperature range is between 68 and 74 degrees Fahrenheit.
+		    Added file logging code and new comments.
+		    
 	10-14-2020: Added new file tempidity-LCDlogger_betaV1.0.3. This code reads the DHT
 	            sensor and displays it on a 16x2 character display but does not log
 		    the data to a file.
